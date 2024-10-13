@@ -130,7 +130,7 @@ function App() {
                 <td>{student.email}</td>
                 <td>{student.gender}</td>
                 <td>{student.language}</td>
-                <td>{student.about}</td>
+                <td> <a href={student.about} target="blank">{student.about}</a></td>
                 <Link
                   to={`/Update/` + student._id}
                   className="btn btn-primary"
